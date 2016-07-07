@@ -146,8 +146,67 @@
     <a href="#">See other partners</a>
 </section>
 
+<section class="ideas">
+    <h1>Discover holiday activity ideas</h1>
+
+    <!--<script type="text/template" id="container">-->
+        <!--<div class="grid">-->
+            <!--<div class="grid-sizer"></div>-->
+            <!--&lt;!&ndash;<div class="gutter-sizer"></div>&ndash;&gt;-->
+            <!--<% for (var i = 0; i < 7; i++) { %>-->
+            <!--<figure class="grid-item">-->
+                <!--<img src="<%= hits[i].webformatURL %>" alt="#"/>-->
+                <!--<figcaption><%= hits[i].tags.split(', ')[1] %></figcaption>-->
+            <!--</figure>-->
+            <!--<% } %>-->
+        <!--</div>-->
+    <!--</script>-->
+    <div class="grid">
+        <div class="grid-sizer"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item grid-item--width2"></div>
+        <div class="grid-item grid-item--width2"></div>
+        <div class="grid-item"></div>
+    </div>
+</section>
+
+<section class="search">
+    <h1>Discover holiday activity ideas</h1>
+    <p>Hi! What are your holiday interests?</p>
+    <form>
+        <input type="search" placeholder="Enter your interests"/>
+        <a href="#">Search partners</a>
+    </form>
+</section>
+
+<section class="footer">
+    <h1>URLAUBSGLÜCK</h1>
+    <div>
+        <h3>Company</h3>
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contacts</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </div>
+    <h3>Partners</h3>
+    <div class="logo">
+        <h3>Designed by</h3>
+        <a href="#">
+            <img src="images/footer/logo.png" alt="ARETO development">
+        </a>
+    </div>
+</section>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+<script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
+<script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
+<script src="js/tmpl.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>
